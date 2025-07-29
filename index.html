@@ -3,104 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CODE A</title>
-    <link rel="stylesheet" href="css/index_seasonfarm.css" />
+    <title>HeyCode</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- favicone -->
+    <!-- 아이콘 ~파비콘 만들기~ -->
   </head>
   <body>
-    <!-- 전체 레이아웃 -->
+    <!--전체 레이아웃  -->
     <div class="wrap">
       <!-- 상단 -->
       <header class="header">
-        <!-- 상단 왼쪽 로고 (모든 로고는 클릭하면 홈으로 간다)-->
-        <div class="logo">
-          <a href="#"> CODE A</a>
+        <div class="inner">
+          <!-- 상단위 -->
+          <div class="headr-top">
+            <ul class="util">
+              <li><a href="#">html</a></li>
+              <li><a href="#">css</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sitmap</a></li>
+            </ul>
+          </div>
+          <!-- 상단아랴 -->
+          <div class="header-bt">
+            <!-- logo -->
+            <h1><a href="#">DOCODE</a></h1>
+            <!-- manu -->
+            <ul class="gnb">
+              <li><a href="#">tip</a></li>
+              <li><a href="#">tip</a></li>
+              <li><a href="#">tip</a></li>
+              <li><a href="#">tip</a></li>
+              <li><a href="#">tip</a></li>
+            </ul>
+          </div>
         </div>
-        <!-- 상단 오른쪽 메뉴 -->
-        <nav class="manu">
-          <ul id="topMenu">
-            <li><a href="#">1.HTML&CSS</a></li>
-            <li><a href="#">2.PHTOS&ILUST</a></li>
-            <li><a href="#">3.PIGMA</a></li>
-            <li><a href="#">4.exercise </a></li>
-            <li><a href="#">5.board</a></li>
-          </ul>
-        </nav>
       </header>
+      <!-- 비주얼 -->
 
-      <!-- 메인 -->
-      <main class="contents">
-        <!-- 힐링 -->
-        <section class="hilling">
-          <!-- title -->
-          <h2>정리정리 ~~~</h2>
-          <!-- desc -->
-          <div class="description">
-            <!-- 이미지 -->
-            <div class="desc-img">
-              <img src="images/jaju1.jpg" alt="힐링이미지" />
-            </div>
-            <!-- 자세한 설명 -->
-            <div class="desc-detail">
-              <!-- 자세한 설명 상단 -->
-              <div class="detail-top">
-                <h2 class="p_top">해보자~~~</h2>
-                <p class="p_bt">
-                  탁 트인 바다, 시원한 바람에 몸을 맡기고 뚜벅뚜벅 오름을 오르고
-                  올렛길을 걷다보면 온전히 나에게 집중할 수 있습니다.
+      <!--피겨태그는 독립적인 콘텐츠를 담는데 사용한다.  -->
+      <figure>
+        <!-- 비디오 -->
+        <div class="video">
+          <img src="images/metro-station-out-focus" alt="">
+        </div>
+        <!-- 비디오 내용 -->
+        <div class="inner">
+          <h2>INNOVATION</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
+            mollitia aut doloribus possimus provident dolorum. Dicta nostrum
+            tenetur reprehenderit repellat modi laboriosam sapiente reiciendis
+            nemo quaerat sed, quas error! Dolorum!
+          </p>
+          <a href="#">view detail</a>
+        </div>
+      </figure>
+      <!-- 뉴스 -->
+      <section class="news">
+        <div class="inner">
+          <h2>RECENT NEWS</h2>
+          <div class="section_wrap">
+            <ul>
+              <li>
+                <div class="pic">
+                  <img src="images/news1.jpg" alt="news1" />
+                </div>
+                <h3><a href="#">lilem pic</a></h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  blanditiis, sed tempora sunt suscipit facere nobis officia
+                  necessitatibus impedit, quo eos quia nemo! Itaque facilis
+                  totam, reprehenderit inventore adipisci iusto?
                 </p>
-              </div>
-              <!-- 자세한 설명 하단 -->
-              <div class="detail-bottom">
-                <h3>상세 일정</h3>
-                <ul>
-                  <li>여행 기간: 2박 3일</li>
-                  <li>
-                    여행 일정: (여행 일정은 상담을 통해 결정 및 조정 가능합니다)
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- 액티비티 -->
-        <section class="hilling activity">
-          <!-- title -->
-          <h2>다양한 액티비티가 기다리는 섬</h2>
-          <!-- desc -->
-          <div class="description">
-            <!-- 이미지 -->
-            <div class="desc-img">
-              <img src="images/jaju2.jpg" alt="액티비티이미지" />
-            </div>
-            <!-- 자세한 설명 -->
-            <div class="desc-detail">
-              <!-- 자세한 설명 상단 -->
-              <div class="detail-top">
-                <h2 class="p_top">
-                  모험과 스릴이 넘치는 레저의 천국으로 안내합니다.
-                </h2>
-                <p class="p_bt">
-                  둘러보기만 하는 여행을 하셨나요?<br />
-
-                  하늘을 날며 시원한 바다를 내려다보는 패러글라이등과 투명한
-                  물빛 속을 여행하는 스킨스쿠버... 아름다운 제주 해안도로를 씽씽
-                  전동바이크나 전동킥보드로 달려보세요. 시원한 바다를 가까이에서
-                  느낄 수 있는 요트 체험과 배낚시도 빼놓을 수 없겠죠?
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="images/news1.jpg" alt="news1" />
+                </div>
+                <h3><a href="#">lilem pic</a></h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  blanditiis, sed tempora sunt suscipit facere nobis officia
+                  necessitatibus impedit, quo eos quia nemo! Itaque facilis
+                  totam, reprehenderit inventore adipisci iusto?
                 </p>
-              </div>
-            </div>
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="images/news1.jpg" alt="news1" />
+                </div>
+                <h3><a href="#">lilem pic</a></h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  blanditiis, sed tempora sunt suscipit facere nobis officia
+                  necessitatibus impedit, quo eos quia nemo! Itaque facilis
+                  totam, reprehenderit inventore adipisci iusto?
+                </p>
+              </li>
+              <li>
+                <div class="pic">
+                  <img src="images/news1.jpg" alt="news1" />
+                </div>
+                <h3><a href="#">lilem pic</a></h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  blanditiis, sed tempora sunt suscipit facere nobis officia
+                  necessitatibus impedit, quo eos quia nemo! Itaque facilis
+                  totam, reprehenderit inventore adipisci iusto?
+                </p>
+              </li>
+            </ul>
           </div>
-        </section>
-      </main>
 
+          <!-- 내가한거~~
+           <nav class="cards">
+            <div class="card1">
+              <img src="/images/news1.jpg" alt="사진1" />
+              <span class="span"> 로렘~~~~ </span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+                minima saepe odio, beatae ullam, laborum, officia qui minus
+                delectus id fuga nam aliquam facilis enim rem sapiente
+                doloremque! Nemo, quasi.
+              </p>
+            </div>
+          </nav>
+           -->
+        </div>
+      </section>
       <!-- 하단 -->
       <footer class="footer">
-        <ul>
-          <li><a href="#">회사 소개</a></li>
-          <li><a href="#">개인정보 처리방침</a></li>
-          <li><a href="#">여행약관</a></li>
-          <li><a href="#">사이트맵</a></li>
-        </ul>
+        <div class="inner">
+          <!-- 하단 위 -->
+          <div class="upper">
+            <h2><a href="#">DOCODE</a></h2>
+            <ul>
+              <li><a href="#">Pol</a></li>
+              <li><a href="#">Pol</a></li>
+              <li><a href="#">Pol</a></li>
+              <li><a href="#">Pol</a></li>
+            </ul>
+          </div>
+          <!-- 하단 아래 -->
+          <div class="lower"></div>
+        </div>
+        <address>
+          Hello here is Hey Code.
+          <br />
+          tel.053-000-0000 c.p.010-0000-0000
+        </address>
+        <p>HayCode copyddd</p>
       </footer>
     </div>
   </body>
